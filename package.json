@@ -1,9 +1,13 @@
 {
   "name": "hello-npm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An example module to illustrate the usage of ClojureScript and npm",
   "author": "Maria Geller ",
-  "main": "lib/hello_npm.js",
+  "main": "release/hello_npm.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mneise/hello-npm.git"
+  },
   "dependencies": {
   },
   "devDependencies": {
