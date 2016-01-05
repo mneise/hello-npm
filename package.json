@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git@github.com:mneise/hello-npm.git"
   },
+  "scripts": {
+    "install": "./scripts/release"
+  },
   "dependencies": {
   },
   "devDependencies": {
