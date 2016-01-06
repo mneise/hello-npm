@@ -9,9 +9,10 @@
     "url": "git@github.com:mneise/hello-npm.git"
   },
   "scripts": {
-    "install": "./scripts/release"
+    "install": "node ./script.js"
   },
   "dependencies": {
+    "lein-node": "0.1.1"
   },
   "devDependencies": {
   },
