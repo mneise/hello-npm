@@ -7,7 +7,9 @@
 
 (nodejs/enable-util-print!)
 
-(defn -main [& args]
-  (println "Hello world!"))
+(defn ^:export add-numbers [a b]
+  (+ a b))
+
+(defn -main [& args])
 
 (set! *main-cli-fn* -main)
