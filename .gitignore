@@ -2,10 +2,13 @@ pom.xml
 *jar
 /lib/
 /classes/
-/out/
-/release/
+/out/*
+/release/*
 /target/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
 node_modules
+.lein-classpath
+
+!/release/hello_npm.js

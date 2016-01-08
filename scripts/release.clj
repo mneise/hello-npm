@@ -6,7 +6,7 @@
   (b/build "src"
     {:output-to "release/hello_npm.js"
      :output-dir "release"
-     :optimizations :simple
+     :optimizations :advanced
      :target :nodejs
      :verbose true
      :main 'hello-npm.core})
