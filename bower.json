@@ -1,0 +1,19 @@
+{
+  "name": "hello-npm",
+  "authors": [
+    "Maria Geller <maria.geller2@gmail.com>"
+  ],
+  "description": "An example module to illustrate the usage of ClojureScript and npm",
+  "main": "release/hello_npm.js",
+  "moduleType": ["node"],
+  "license": "MIT",
+  "homepage": "https://github.com/mneise/hello-npm",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
